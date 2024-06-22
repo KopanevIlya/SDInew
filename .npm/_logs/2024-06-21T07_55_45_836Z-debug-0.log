@@ -1,0 +1,35 @@
+0 verbose cli /home/i/ilyakom1/.nvm/versions/node/v18.20.3/bin/node /home/i/ilyakom1/.nvm/versions/node/v18.20.3/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/home/i/ilyakom1/.nvm/versions/node/v18.20.3/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/i/ilyakom1/ilyakom1.beget.tech/.npmrc
+5 silly config:load:file:/home/i/ilyakom1/.npmrc
+6 silly config:load:file:/home/i/ilyakom1/.nvm/versions/node/v18.20.3/etc/npmrc
+7 verbose title npm i headlessui/vue
+8 verbose argv "i" "headlessui/vue"
+9 verbose logfile logs-max:10 dir:/home/i/ilyakom1/.npm/_logs/2024-06-21T07_55_45_836Z-
+10 verbose logfile /home/i/ilyakom1/.npm/_logs/2024-06-21T07_55_45_836Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: An unknown git error occurred
+13 verbose stack     at makeError (/home/i/ilyakom1/.nvm/versions/node/v18.20.3/lib/node_modules/npm/node_modules/@npmcli/git/lib/make-error.js:28:13)
+13 verbose stack     at /home/i/ilyakom1/.nvm/versions/node/v18.20.3/lib/node_modules/npm/node_modules/@npmcli/git/lib/spawn.js:37:26
+14 verbose cwd /home/i/ilyakom1/ilyakom1.beget.tech
+15 verbose Linux 5.10.196-0-beget-acl
+16 verbose node v18.20.3
+17 verbose npm  v10.7.0
+18 error code 128
+19 error An unknown git error occurred
+20 error command git --no-replace-objects ls-remote ssh://git@github.com/headlessui/vue.git
+21 error Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+21 error git@github.com: Permission denied (publickey).
+21 error fatal: Не удалось прочитать из внешнего репозитория.
+21 error
+21 error Удостоверьтесь, что у вас есть необходимые права доступа
+21 error и репозиторий существует.
+22 verbose exit 128
+23 verbose code 128
+24 silly unfinished npm timer reify 1718956546363
+25 silly unfinished npm timer reify:loadTrees 1718956546370
+26 silly unfinished npm timer idealTree:userRequests 1718956546506
+27 error A complete log of this run can be found in: /home/i/ilyakom1/.npm/_logs/2024-06-21T07_55_45_836Z-debug-0.log

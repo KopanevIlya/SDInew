@@ -1,0 +1,428 @@
+0 verbose cli /home/i/ilyakom1/.nvm/versions/node/v18.20.3/bin/node /home/i/ilyakom1/.nvm/versions/node/v18.20.3/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.3
+3 silly config:load:file:/home/i/ilyakom1/.nvm/versions/node/v18.20.3/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/i/ilyakom1/ilyakom1.beget.tech/.npmrc
+5 silly config:load:file:/home/i/ilyakom1/.npmrc
+6 silly config:load:file:/home/i/ilyakom1/.nvm/versions/node/v18.20.3/etc/npmrc
+7 verbose title npm install @heroicons/vue
+8 verbose argv "install" "@heroicons/vue"
+9 verbose logfile logs-max:10 dir:/home/i/ilyakom1/.npm/_logs/2024-06-21T07_57_02_040Z-
+10 verbose logfile /home/i/ilyakom1/.npm/_logs/2024-06-21T07_57_02_040Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @heroicons/vue@*
+15 http fetch GET 200 https://registry.npmjs.org/@heroicons%2fvue 1594ms (cache miss)
+16 silly fetch manifest vue@^3.4.0
+17 http fetch GET 200 https://registry.npmjs.org/vue 18ms (cache hit)
+18 silly fetch manifest typescript@*
+19 http fetch GET 200 https://registry.npmjs.org/typescript 85ms (cache hit)
+20 silly placeDep ROOT @heroicons/vue@2.1.4 OK for:  want: *
+21 silly reify moves {}
+22 silly audit bulk request {
+22 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+22 silly audit   '@babel/parser': [ '7.24.0' ],
+22 silly audit   '@esbuild/aix-ppc64': [ '0.19.12' ],
+22 silly audit   '@esbuild/android-arm': [ '0.19.12' ],
+22 silly audit   '@esbuild/android-arm64': [ '0.19.12' ],
+22 silly audit   '@esbuild/android-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/darwin-arm64': [ '0.19.12' ],
+22 silly audit   '@esbuild/darwin-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/freebsd-arm64': [ '0.19.12' ],
+22 silly audit   '@esbuild/freebsd-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-arm': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-arm64': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-ia32': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-loong64': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-mips64el': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-ppc64': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-riscv64': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-s390x': [ '0.19.12' ],
+22 silly audit   '@esbuild/linux-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/netbsd-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/openbsd-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/sunos-x64': [ '0.19.12' ],
+22 silly audit   '@esbuild/win32-arm64': [ '0.19.12' ],
+22 silly audit   '@esbuild/win32-ia32': [ '0.19.12' ],
+22 silly audit   '@esbuild/win32-x64': [ '0.19.12' ],
+22 silly audit   '@headlessui/vue': [ '1.7.22' ],
+22 silly audit   '@inertiajs/core': [ '1.0.15' ],
+22 silly audit   '@inertiajs/vue3': [ '1.0.15' ],
+22 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+22 silly audit   '@jridgewell/gen-mapping': [ '0.3.5' ],
+22 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+22 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+22 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.15' ],
+22 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+22 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+22 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+22 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+22 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+22 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-android-arm64': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-darwin-arm64': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-darwin-x64': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.13.0' ],
+22 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.13.0' ],
+22 silly audit   '@tailwindcss/forms': [ '0.5.7' ],
+22 silly audit   '@tanstack/virtual-core': [ '3.5.1' ],
+22 silly audit   '@tanstack/vue-virtual': [ '3.5.1' ],
+22 silly audit   '@types/estree': [ '1.0.5' ],
+22 silly audit   '@vitejs/plugin-vue': [ '5.0.4' ],
+22 silly audit   '@vue/compiler-core': [ '3.4.21' ],
+22 silly audit   '@vue/compiler-dom': [ '3.4.21' ],
+22 silly audit   '@vue/compiler-sfc': [ '3.4.21' ],
+22 silly audit   '@vue/compiler-ssr': [ '3.4.21' ],
+22 silly audit   '@vue/reactivity': [ '3.4.21' ],
+22 silly audit   '@vue/runtime-core': [ '3.4.21' ],
+22 silly audit   '@vue/runtime-dom': [ '3.4.21' ],
+22 silly audit   '@vue/server-renderer': [ '3.4.21' ],
+22 silly audit   '@vue/shared': [ '3.4.21' ],
+22 silly audit   'ansi-regex': [ '6.0.1', '5.0.1' ],
+22 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+22 silly audit   'any-promise': [ '1.3.0' ],
+22 silly audit   anymatch: [ '3.1.3' ],
+22 silly audit   arg: [ '5.0.2' ],
+22 silly audit   asynckit: [ '0.4.0' ],
+22 silly audit   autoprefixer: [ '10.4.18' ],
+22 silly audit   axios: [ '1.6.7' ],
+22 silly audit   'balanced-match': [ '1.0.2' ],
+22 silly audit   'binary-extensions': [ '2.3.0' ],
+22 silly audit   'brace-expansion': [ '2.0.1' ],
+22 silly audit   braces: [ '3.0.2' ],
+22 silly audit   browserslist: [ '4.23.0' ],
+22 silly audit   'call-bind': [ '1.0.7' ],
+22 silly audit   'camelcase-css': [ '2.0.1' ],
+22 silly audit   'caniuse-lite': [ '1.0.30001597' ],
+22 silly audit   chokidar: [ '3.6.0' ],
+22 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+22 silly audit   'color-convert': [ '2.0.1' ],
+22 silly audit   'color-name': [ '1.1.4' ],
+22 silly audit   'combined-stream': [ '1.0.8' ],
+22 silly audit   commander: [ '4.1.1' ],
+22 silly audit   'cross-spawn': [ '7.0.3' ],
+22 silly audit   cssesc: [ '3.0.0' ],
+22 silly audit   csstype: [ '3.1.3' ],
+22 silly audit   deepmerge: [ '4.3.1' ],
+22 silly audit   'define-data-property': [ '1.1.4' ],
+22 silly audit   'delayed-stream': [ '1.0.0' ],
+22 silly audit   didyoumean: [ '1.2.2' ],
+22 silly audit   dlv: [ '1.1.3' ],
+22 silly audit   eastasianwidth: [ '0.2.0' ],
+22 silly audit   'electron-to-chromium': [ '1.4.707' ],
+22 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+22 silly audit   entities: [ '4.5.0' ],
+22 silly audit   'es-define-property': [ '1.0.0' ],
+22 silly audit   'es-errors': [ '1.3.0' ],
+22 silly audit   esbuild: [ '0.19.12' ],
+22 silly audit   escalade: [ '3.1.2' ],
+22 silly audit   'estree-walker': [ '2.0.2' ],
+22 silly audit   'fast-glob': [ '3.3.2' ],
+22 silly audit   fastq: [ '1.17.1' ],
+22 silly audit   'fill-range': [ '7.0.1' ],
+22 silly audit   'follow-redirects': [ '1.15.6' ],
+22 silly audit   'foreground-child': [ '3.1.1' ],
+22 silly audit   'form-data': [ '4.0.0' ],
+22 silly audit   'fraction.js': [ '4.3.7' ],
+22 silly audit   fsevents: [ '2.3.3' ],
+22 silly audit   'function-bind': [ '1.1.2' ],
+22 silly audit   'get-intrinsic': [ '1.2.4' ],
+22 silly audit   glob: [ '10.3.10' ],
+22 silly audit   gopd: [ '1.0.1' ],
+22 silly audit   'has-property-descriptors': [ '1.0.2' ],
+22 silly audit   'has-proto': [ '1.0.3' ],
+22 silly audit   'has-symbols': [ '1.0.3' ],
+22 silly audit   hasown: [ '2.0.2' ],
+22 silly audit   heroicons: [ '2.1.1' ],
+22 silly audit   'is-binary-path': [ '2.1.0' ],
+22 silly audit   'is-core-module': [ '2.13.1' ],
+22 silly audit   'is-extglob': [ '2.1.1' ],
+22 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+22 silly audit   'is-glob': [ '4.0.3' ],
+22 silly audit   'is-number': [ '7.0.0' ],
+22 silly audit   isexe: [ '2.0.0' ],
+22 silly audit   jackspeak: [ '2.3.6' ],
+22 silly audit   jiti: [ '1.21.0' ],
+22 silly audit   'laravel-vite-plugin': [ '1.0.2' ],
+22 silly audit   lilconfig: [ '2.1.0', '3.1.1' ],
+22 silly audit   'lines-and-columns': [ '1.2.4' ],
+22 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+22 silly audit   'lodash.isequal': [ '4.5.0' ],
+22 silly audit   'lru-cache': [ '10.2.0' ],
+22 silly audit   'magic-string': [ '0.30.8' ],
+22 silly audit   merge2: [ '1.4.1' ],
+22 silly audit   micromatch: [ '4.0.5' ],
+22 silly audit   'mime-db': [ '1.52.0' ],
+22 silly audit   'mime-types': [ '2.1.35' ],
+22 silly audit   'mini-svg-data-uri': [ '1.4.4' ],
+22 silly audit   minimatch: [ '9.0.3' ],
+22 silly audit   minipass: [ '7.0.4' ],
+22 silly audit   mz: [ '2.7.0' ],
+22 silly audit   nanoid: [ '3.3.7' ],
+22 silly audit   'node-releases': [ '2.0.14' ],
+22 silly audit   'normalize-path': [ '3.0.0' ],
+22 silly audit   'normalize-range': [ '0.1.2' ],
+22 silly audit   nprogress: [ '0.2.0' ],
+22 silly audit   'object-assign': [ '4.1.1' ],
+22 silly audit   'object-hash': [ '3.0.0' ],
+22 silly audit   'object-inspect': [ '1.13.1' ],
+22 silly audit   'path-key': [ '3.1.1' ],
+22 silly audit   'path-parse': [ '1.0.7' ],
+22 silly audit   'path-scurry': [ '1.10.1' ],
+22 silly audit   picocolors: [ '1.0.0' ],
+22 silly audit   picomatch: [ '2.3.1' ],
+22 silly audit   pify: [ '2.3.0' ],
+22 silly audit   pirates: [ '4.0.6' ],
+22 silly audit   postcss: [ '8.4.35' ],
+22 silly audit   'postcss-import': [ '15.1.0' ],
+22 silly audit   'postcss-js': [ '4.0.1' ],
+22 silly audit   'postcss-load-config': [ '4.0.2' ],
+22 silly audit   'postcss-nested': [ '6.0.1' ],
+22 silly audit   'postcss-selector-parser': [ '6.0.16' ],
+22 silly audit   'postcss-value-parser': [ '4.2.0' ],
+22 silly audit   'proxy-from-env': [ '1.1.0' ],
+22 silly audit   qs: [ '6.12.0' ],
+22 silly audit   'queue-microtask': [ '1.2.3' ],
+22 silly audit   'read-cache': [ '1.0.0' ],
+22 silly audit   readdirp: [ '3.6.0' ],
+22 silly audit   resolve: [ '1.22.8' ],
+22 silly audit   reusify: [ '1.0.4' ],
+22 silly audit   rollup: [ '4.13.0' ],
+22 silly audit   'run-parallel': [ '1.2.0' ],
+22 silly audit   'set-function-length': [ '1.2.2' ],
+22 silly audit   'shebang-command': [ '2.0.0' ],
+22 silly audit   'shebang-regex': [ '3.0.0' ],
+22 silly audit   'side-channel': [ '1.0.6' ],
+22 silly audit   'signal-exit': [ '4.1.0' ],
+22 silly audit   'source-map-js': [ '1.0.2' ],
+22 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+22 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+22 silly audit   sucrase: [ '3.35.0' ],
+22 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+22 silly audit   tailwindcss: [ '3.4.1' ],
+22 silly audit   thenify: [ '3.3.1' ],
+22 silly audit   'thenify-all': [ '1.6.0' ],
+22 silly audit   'to-regex-range': [ '5.0.1' ],
+22 silly audit   'ts-interface-checker': [ '0.1.13' ],
+22 silly audit   'update-browserslist-db': [ '1.0.13' ],
+22 silly audit   'util-deprecate': [ '1.0.2' ],
+22 silly audit   vite: [ '5.1.6' ],
+22 silly audit   'vite-plugin-full-reload': [ '1.1.0' ],
+22 silly audit   vue: [ '3.4.21' ],
+22 silly audit   which: [ '2.0.2' ],
+22 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+22 silly audit   yaml: [ '2.4.1' ],
+22 silly audit   '@heroicons/vue': [ '2.1.4' ]
+22 silly audit }
+23 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/fsevents
+24 silly reify mark deleted [ '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/fsevents' ]
+25 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-x64-msvc
+26 silly reify mark deleted [
+26 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-x64-msvc'
+26 silly reify ]
+27 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-ia32-msvc
+28 silly reify mark deleted [
+28 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-ia32-msvc'
+28 silly reify ]
+29 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-arm64-msvc
+30 silly reify mark deleted [
+30 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-win32-arm64-msvc'
+30 silly reify ]
+31 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-riscv64-gnu
+32 silly reify mark deleted [
+32 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-riscv64-gnu'
+32 silly reify ]
+33 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm64-musl
+34 silly reify mark deleted [
+34 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm64-musl'
+34 silly reify ]
+35 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm64-gnu
+36 silly reify mark deleted [
+36 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm64-gnu'
+36 silly reify ]
+37 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm-gnueabihf
+38 silly reify mark deleted [
+38 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+38 silly reify ]
+39 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-darwin-x64
+40 silly reify mark deleted [
+40 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-darwin-x64'
+40 silly reify ]
+41 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-darwin-arm64
+42 silly reify mark deleted [
+42 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-darwin-arm64'
+42 silly reify ]
+43 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-android-arm64
+44 silly reify mark deleted [
+44 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-android-arm64'
+44 silly reify ]
+45 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-android-arm-eabi
+46 silly reify mark deleted [
+46 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@rollup/rollup-android-arm-eabi'
+46 silly reify ]
+47 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-x64
+48 silly reify mark deleted [
+48 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-x64'
+48 silly reify ]
+49 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-ia32
+50 silly reify mark deleted [
+50 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-ia32'
+50 silly reify ]
+51 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-arm64
+52 silly reify mark deleted [
+52 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/win32-arm64'
+52 silly reify ]
+53 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/sunos-x64
+54 silly reify mark deleted [
+54 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/sunos-x64'
+54 silly reify ]
+55 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/openbsd-x64
+56 silly reify mark deleted [
+56 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/openbsd-x64'
+56 silly reify ]
+57 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/netbsd-x64
+58 silly reify mark deleted [
+58 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/netbsd-x64'
+58 silly reify ]
+59 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-s390x
+60 silly reify mark deleted [
+60 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-s390x'
+60 silly reify ]
+61 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-riscv64
+62 silly reify mark deleted [
+62 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-riscv64'
+62 silly reify ]
+63 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-ppc64
+64 silly reify mark deleted [
+64 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-ppc64'
+64 silly reify ]
+65 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-mips64el
+66 silly reify mark deleted [
+66 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-mips64el'
+66 silly reify ]
+67 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-loong64
+68 silly reify mark deleted [
+68 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-loong64'
+68 silly reify ]
+69 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-ia32
+70 silly reify mark deleted [
+70 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-ia32'
+70 silly reify ]
+71 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-arm64
+72 silly reify mark deleted [
+72 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-arm64'
+72 silly reify ]
+73 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-arm
+74 silly reify mark deleted [
+74 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/linux-arm'
+74 silly reify ]
+75 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/freebsd-x64
+76 silly reify mark deleted [
+76 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/freebsd-x64'
+76 silly reify ]
+77 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/freebsd-arm64
+78 silly reify mark deleted [
+78 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/freebsd-arm64'
+78 silly reify ]
+79 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/darwin-x64
+80 silly reify mark deleted [
+80 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/darwin-x64'
+80 silly reify ]
+81 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/darwin-arm64
+82 silly reify mark deleted [
+82 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/darwin-arm64'
+82 silly reify ]
+83 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-x64
+84 silly reify mark deleted [
+84 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-x64'
+84 silly reify ]
+85 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-arm64
+86 silly reify mark deleted [
+86 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-arm64'
+86 silly reify ]
+87 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-arm
+88 silly reify mark deleted [
+88 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/android-arm'
+88 silly reify ]
+89 verbose reify failed optional dependency /home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/aix-ppc64
+90 silly reify mark deleted [
+90 silly reify   '/home/i/ilyakom1/ilyakom1.beget.tech/node_modules/@esbuild/aix-ppc64'
+90 silly reify ]
+91 silly tarball no local data for @heroicons/vue@https://registry.npmjs.org/@heroicons/vue/-/vue-2.1.4.tgz. Extracting by manifest.
+92 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 233ms
+93 silly audit report {
+93 silly audit report   braces: [
+93 silly audit report     {
+93 silly audit report       id: 1097496,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-grv7-fg5c-xmjg',
+93 silly audit report       title: 'Uncontrolled resource consumption in braces',
+93 silly audit report       severity: 'high',
+93 silly audit report       vulnerable_versions: '<3.0.3',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ],
+93 silly audit report   vite: [
+93 silly audit report     {
+93 silly audit report       id: 1096893,
+93 silly audit report       url: 'https://github.com/advisories/GHSA-8jhw-289h-jh2g',
+93 silly audit report       title: "Vite's `server.fs.deny` did not deny requests for patterns with directories.",
+93 silly audit report       severity: 'moderate',
+93 silly audit report       vulnerable_versions: '>=5.1.0 <=5.1.6',
+93 silly audit report       cwe: [Array],
+93 silly audit report       cvss: [Object]
+93 silly audit report     }
+93 silly audit report   ]
+93 silly audit report }
+94 http fetch GET 200 https://registry.npmjs.org/braces 24ms (cache hit)
+95 http fetch GET 200 https://registry.npmjs.org/vite 29ms (cache hit)
+96 http fetch GET 200 https://registry.npmjs.org/micromatch 15ms (cache hit)
+97 http fetch GET 200 https://registry.npmjs.org/chokidar 19ms (cache hit)
+98 http fetch GET 200 https://registry.npmjs.org/@vitejs%2fplugin-vue 12ms (cache hit)
+99 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 17ms (cache hit)
+100 http fetch GET 200 https://registry.npmjs.org/@heroicons/vue/-/vue-2.1.4.tgz 1560ms (cache miss)
+101 silly ADD node_modules/@heroicons/vue
+102 silly ADD
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 silly ADD
+112 silly ADD
+113 silly ADD
+114 silly ADD
+115 silly ADD
+116 silly ADD
+117 silly ADD
+118 silly ADD
+119 silly ADD
+120 silly ADD
+121 silly ADD
+122 silly ADD
+123 silly ADD
+124 silly ADD
+125 silly ADD
+126 silly ADD
+127 silly ADD
+128 silly ADD
+129 silly ADD
+130 silly ADD
+131 silly ADD
+132 silly ADD
+133 silly ADD
+134 silly ADD
+135 silly ADD
+136 verbose exit 0
+137 info ok
